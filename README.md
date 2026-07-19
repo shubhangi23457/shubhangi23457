@@ -9,7 +9,7 @@ Currently working on projects using **HTML, CSS, JavaScript, and React** while i
 
 <td width="35%" align="center">
 
-<img src="images/profile.png" width="250">
+<img src="profile.jpeg" width="250">
 
 </td>
 
