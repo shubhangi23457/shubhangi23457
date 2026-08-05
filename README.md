@@ -15,7 +15,7 @@
 
 <div align="center">
 
- <i>Shubhangi Savant</i>
+<h1><i><b>Shubhangi Savant<b></i></h1>
 
 <sub>Computer Science (AIML) student · frontend developer · building interfaces that move</sub>
 
