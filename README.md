@@ -1,14 +1,6 @@
 <!--
-  SETUP — a couple of things still need a real link before you use them:
-    https://your-resume-link.com   -> link to your hosted resume (PDF / Drive / etc.)
-    https://your-portfolio.com     -> your portfolio URL
-  Both badges live in the "Quick links" block below and are commented out
-  until you're ready to add them — just fill in the links and uncomment.
-
-  assets/ascii-portrait.svg was generated from your uploaded photo. To
-  regenerate it (new photo, tighter crop, different resolution):
-      python3 assets/generate_ascii.py your-photo.jpg assets/ascii-portrait.svg \
-        --cols 62 --rows 38 --crop 0.12,0.03,0.88,0.85
+  GitHub Profile README
+  Assets are stored in the /assets folder.
 -->
 
 <div align="center">
@@ -18,7 +10,8 @@
 <img src="assets/hero-heading.svg" alt="Shubhangi Savant" width="500" />
 
 <br/>
-<sub>Computer Science (AIML) student · frontend developer · building interfaces that move</sub>
+
+<sub>Computer Science student · frontend developer · building interfaces that feel good to use</sub>
 
 </div>
 
@@ -26,33 +19,31 @@
 
 <table>
 <tr>
+
 <td width="36%" valign="top" align="center">
 
 <img src="assets/ascii-portrait.svg" alt="ASCII terminal portrait of Shubhangi Savant" width="100%" />
 
 </td>
+
 <td width="64%" valign="top">
 
 <img src="assets/typing.svg" alt="Animated typing introduction" width="100%" />
 
 <br/>
 
-Frontend developer and AI/ML student who builds expressive, motion-driven interfaces with **React** and **Three.js** — and is just as comfortable a few layers down, training models and reasoning about data. I care about interfaces that feel considered, not just functional.
+I enjoy turning ideas into clean, interactive web experiences. I like working on interfaces where design and functionality come together naturally — from the overall layout down to the little interactions that make a page feel alive.
 
-**Connect**
+<br/>
+
+### Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-070b14?style=flat-square&logo=github&logoColor=22d3ee)](https://github.com/shubhangi23457)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-070b14?style=flat-square&logo=linkedin&logoColor=3882f6)](https://www.linkedin.com/in/shubhangi-savant-05229041b/)
 [![Email](https://img.shields.io/badge/Email-070b14?style=flat-square&logo=gmail&logoColor=7c3aed)](mailto:savant.shubhangi@gmail.com)
 
-**Quick links**
-
-<!--
-[![Resume](https://img.shields.io/badge/📄_Resume-22d3ee?style=for-the-badge&logoColor=white&labelColor=070b14&color=0d1420)](https://your-resume-link.com)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-7c3aed?style=for-the-badge&logoColor=white&labelColor=070b14&color=0d1420)](https://your-portfolio.com)
--->
-
 </td>
+
 </tr>
 </table>
 
@@ -60,13 +51,16 @@ Frontend developer and AI/ML student who builds expressive, motion-driven interf
 
 ## `About Me`
 
-I'm a Computer Science (AI/ML) student who enjoys building clean, interactive web experiences. I love creating interfaces that feel smooth, intuitive, and visually engaging — the kind of small touches, like a hover state or a transition that lands just right, that most people only notice when they're missing.
+I'm a Computer Science student who enjoys building things for the web and learning how different pieces of technology work together. I especially enjoy frontend development because it gives me a chance to combine logic with creativity and turn an idea into something people can actually interact with.
 
-Lately that's meant building with React and dipping into Three.js for more spatial, immersive interfaces, while my AI/ML coursework pulls me toward thinking in systems and patterns rather than just pixels. Long-term, I'd like to be the kind of developer who's just as comfortable shipping a polished interface as reasoning about the model behind it.
+I like clean layouts, responsive designs, smooth interactions, and understanding what happens behind the interface. I'm also interested in AI/ML and enjoy exploring how programming, data, and intelligent systems can work together.
 
-- 🐍 Creator of **SnakeVerse**, a project I keep coming back to and improving
-- 🧩 I'd rather understand *why* something broke than just patch it
-- 🌱 Always learning — reading other people's code, picking up new tools, leveling up a little at a time
+Right now, I'm focused on improving my problem-solving skills, building practical projects, and becoming a developer who can confidently work across both frontend and backend technologies.
+
+- 🐍 Creator of **SnakeVerse**, a project I keep improving and experimenting with
+- 🧩 I prefer understanding *why* something breaks instead of just patching it
+- 🌱 Always learning by building projects and exploring new technologies
+- 💻 Practicing programming, data structures, algorithms, and web development
 - 🎯 Working toward becoming a Full-Stack Developer & AI/ML Engineer
 
 <br/>
@@ -75,21 +69,32 @@ Lately that's meant building with React and dipping into Three.js for more spati
 
 <div align="center">
 
-<img src="assets/tech-stack.svg" alt="Tech stack grouped by category: Frontend, Backend, Languages, Database, Tools" width="100%" />
+<img src="assets/tech-stack.svg" alt="Tech stack" width="100%" />
 
 </div>
 
 <br/>
+
 ## `GitHub Analytics`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shubhangi23457&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=shubhangi23457&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhangi23457&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shubhangi23457&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<sub>Thanks for stopping by — always building, learning, and improving something new.</sub>
 
 </div>
