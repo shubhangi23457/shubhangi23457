@@ -80,22 +80,16 @@ Lately that's meant building with React and dipping into Three.js for more spati
 </div>
 
 <br/>
-
 ## `GitHub Analytics`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shubhangi23457&show_icons=true&count_private=true&title_color=22d3ee&text_color=e6f1ff&icon_color=7c3aed&bg_color=070b14&border_color=1e293b&hide_border=false" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhangi23457&layout=compact&title_color=22d3ee&text_color=e6f1ff&icon_color=3882f6&bg_color=070b14&border_color=1e293b&hide_border=false" alt="Top Languages" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=shubhangi23457&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165"/>
 
-<img src="https://streak-stats.demolab.com/?user=shubhangi23457&background=070b14&ring=22d3ee&fire=7c3aed&currStreakLabel=22d3ee&sideLabels=e6f1ff&currStreakNum=e6f1ff&sideNums=e6f1ff&dates=64748b&stroke=1e293b&border=1e293b" alt="GitHub Streak"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=shubhangi23457&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" width="100%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shubhangi23457&bg_color=070b14&color=22d3ee&line=3882f6&point=7c3aed&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhangi23457&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 
 <br/>
 
-<img src="https://ghchart.rshah.org/22d3ee/shubhangi23457" alt="" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shubhangi23457&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
 
 </div>
