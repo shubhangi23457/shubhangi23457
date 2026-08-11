@@ -74,7 +74,6 @@ Right now, I'm focused on improving my problem-solving skills, building practica
 </div>
 
 <br/>
-
 ## `GitHub Analytics`
 
 <div align="center">
@@ -85,11 +84,13 @@ Right now, I'm focused on improving my problem-solving skills, building practica
 
 <br/><br/>
 
+<img src="https://streak-stats.demolab.com/?user=shubhangi23457&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+<br/><br/>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shubhangi23457&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
 
 </div>
-
-<br/>
 
 ---
 
