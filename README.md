@@ -74,6 +74,7 @@ Right now, I'm focused on improving my problem-solving skills, building practica
 </div>
 
 <br/>
+
 ## `GitHub Analytics`
 
 <div align="center">
@@ -84,13 +85,25 @@ Right now, I'm focused on improving my problem-solving skills, building practica
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=shubhangi23457&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<!--
+  Real contribution streak, generated locally by .github/workflows/update-github-stats.yml
+  from the GitHub GraphQL contribution calendar for this account. No values below
+  are hard-coded — see scripts/generate_github_stats.py.
+-->
+<img src="assets/github-streak.svg" alt="GitHub Contribution Streak" width="100%"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shubhangi23457&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
+<!--
+  GitHub-style contribution heatmap, generated from the same real contribution data
+  (not the github-readme-activity-graph line chart, which does not reflect the
+  actual contribution calendar).
+-->
+<img src="assets/github-contributions.svg" alt="GitHub Contribution Calendar" width="100%"/>
 
 </div>
+
+<br/>
 
 ---
 

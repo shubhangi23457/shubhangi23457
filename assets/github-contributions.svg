@@ -1,0 +1,16 @@
+<svg viewBox="0 0 840 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waiting for first automated update">
+<title>Waiting for first automated update</title>
+<defs>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&amp;display=swap');
+text { font-family: 'JetBrains Mono','Fira Code','Courier New',monospace; }
+</style>
+<linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#3882f6"/><stop offset="100%" stop-color="#7c3aed"/>
+</linearGradient>
+</defs>
+<rect x="1" y="1" width="838" height="198" rx="16" ry="16" fill="#0c1420" stroke="url(#borderGrad)" stroke-width="1.4"/>
+<rect x="1" y="1" width="838" height="3" rx="1.5" fill="url(#borderGrad)" opacity="0.65"/>
+<text x="420.0" y="94.0" text-anchor="middle" font-size="15" font-weight="600" fill="#e6f1ff">Waiting for first automated update</text>
+<text x="420.0" y="118.0" text-anchor="middle" font-size="12" fill="#7c8aa5">Real contribution calendar will populate after the update-github-stats workflow runs</text>
+</svg>
