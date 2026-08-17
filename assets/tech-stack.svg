@@ -1,0 +1,130 @@
+<svg viewBox="0 0 608 524" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Tech stack: HTML5, CSS3, JavaScript, React, Node.js, Java, Python, MySQL, Git, GitHub, VS Code">
+  <title>Tech stack by category</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&amp;display=swap');
+      text { font-family: 'JetBrains Mono','Fira Code','Courier New',monospace; }
+    </style>
+  </defs>
+
+  <text x="22" y="35.5" font-size="13.5" font-weight="600"
+        fill="#22d3ee" letter-spacing="0.4">Frontend</text>
+  <line x1="22" y1="43.5" x2="586" y2="43.5"
+        stroke="#22d3ee" stroke-width="0.6" opacity="0.25"/>
+<g transform="translate(22,52)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.000s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.000s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#22d3ee" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#22d3ee"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">HTML5</text>
+</g>
+<g transform="translate(166,52)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.035s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.035s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#3882f6" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#3882f6" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#3882f6"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">CSS3</text>
+</g>
+<g transform="translate(310,52)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.070s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.070s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#7c3aed" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#7c3aed" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#7c3aed"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">JavaScript</text>
+</g>
+<g transform="translate(454,52)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.105s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.105s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#22d3ee" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#22d3ee"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">React</text>
+</g>
+  <text x="22" y="137.5" font-size="13.5" font-weight="600"
+        fill="#3882f6" letter-spacing="0.4">Backend</text>
+  <line x1="22" y1="145.5" x2="586" y2="145.5"
+        stroke="#3882f6" stroke-width="0.6" opacity="0.25"/>
+<g transform="translate(22,154)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.140s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.140s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#3882f6" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#3882f6" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#3882f6"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">Node.js</text>
+</g>
+  <text x="22" y="239.5" font-size="13.5" font-weight="600"
+        fill="#7c3aed" letter-spacing="0.4">Languages</text>
+  <line x1="22" y1="247.5" x2="586" y2="247.5"
+        stroke="#7c3aed" stroke-width="0.6" opacity="0.25"/>
+<g transform="translate(22,256)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.175s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.175s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#7c3aed" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#7c3aed" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#7c3aed"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">Java</text>
+</g>
+<g transform="translate(166,256)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.210s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.210s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#22d3ee" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#22d3ee"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">Python</text>
+</g>
+  <text x="22" y="341.5" font-size="13.5" font-weight="600"
+        fill="#22d3ee" letter-spacing="0.4">Database</text>
+  <line x1="22" y1="349.5" x2="586" y2="349.5"
+        stroke="#22d3ee" stroke-width="0.6" opacity="0.25"/>
+<g transform="translate(22,358)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.245s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.245s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#3882f6" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#3882f6" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#3882f6"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">MySQL</text>
+</g>
+  <text x="22" y="443.5" font-size="13.5" font-weight="600"
+        fill="#3882f6" letter-spacing="0.4">Tools</text>
+  <line x1="22" y1="451.5" x2="586" y2="451.5"
+        stroke="#3882f6" stroke-width="0.6" opacity="0.25"/>
+<g transform="translate(22,460)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.280s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.280s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#7c3aed" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#7c3aed" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#7c3aed"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">Git</text>
+</g>
+<g transform="translate(166,460)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.315s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.315s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#22d3ee" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#22d3ee" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#22d3ee"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">GitHub</text>
+</g>
+<g transform="translate(310,460)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.350s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+                     from="0 8" to="0 0" begin="0.350s" dur="0.4s" fill="freeze" calcMode="linear"/>
+  <rect width="132" height="42" rx="9" ry="9" fill="#0c1420" stroke="#3882f6" stroke-width="1.1" opacity="0.9"/>
+  <rect x="1" y="1" width="130" height="2" rx="1" fill="#3882f6" opacity="0.5"/>
+  <circle cx="16" cy="21.0" r="3.2" fill="#3882f6"/>
+  <text x="27" y="25.2" font-size="13" fill="#e6f1ff">VS Code</text>
+</g>
+</svg>

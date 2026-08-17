@@ -1,0 +1,86 @@
+name: Update GitHub Contribution Stats
+
+# ---------------------------------------------------------------------------
+# Fetches REAL contribution data for shubhangi23457 from the GitHub GraphQL
+# API, computes the current streak / longest streak / total contributions,
+# regenerates the SVG cards under assets/, and commits them back to the repo
+# ONLY when something actually changed.
+# ---------------------------------------------------------------------------
+
+on:
+  schedule:
+    # Runs once a day. GitHub's contribution calendar is date-based (UTC),
+    # so a single daily run is enough to pick up "day rolled over" changes.
+    # 03:17 UTC is used instead of a round hour to avoid the top-of-the-hour
+    # queue that GitHub Actions' scheduler gets congested with.
+    - cron: "17 3 * * *"
+
+  # Lets you trigger an update on demand from the Actions tab.
+  workflow_dispatch: {}
+
+  # Re-check whenever main is pushed to (e.g. right after you make a commit,
+  # so the cards reflect today's contribution immediately rather than
+  # waiting for the next scheduled run).
+  push:
+    branches:
+      - main
+    # Ignore pushes that only touch the generated assets themselves, so the
+    # workflow's own commits don't retrigger it (belt-and-braces on top of
+    # the [skip ci] marker used below and the github-actions[bot] actor
+    # check).
+    paths-ignore:
+      - "assets/github-streak.svg"
+      - "assets/github-contributions.svg"
+
+permissions:
+  contents: write   # required so the workflow can commit+push the updated SVGs
+
+concurrency:
+  group: update-github-stats
+  cancel-in-progress: false
+
+jobs:
+  update-stats:
+    # Guard against the workflow's own commit re-triggering itself in an
+    # infinite loop (extra safety on top of paths-ignore above).
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch real contribution data & generate SVG cards
+        env:
+          GH_USERNAME: shubhangi23457
+          # The default token GitHub injects into every workflow run.
+          # It is sufficient here because the GraphQL contribution
+          # calendar for a public profile only requires an authenticated
+          # request, not any elevated scope.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_github_stats.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet -- assets/github-streak.svg assets/github-contributions.svg; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push updated stats
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-streak.svg assets/github-contributions.svg
+          git commit -m "chore: update GitHub contribution stats [skip ci]"
+          git push

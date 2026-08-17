@@ -1,0 +1,33 @@
+<svg viewBox="0 0 760 132" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Shubhangi Savant">
+  <title>Shubhangi Savant</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap');
+      text { font-family: 'Space Grotesk','Poppins','Segoe UI',sans-serif; }
+    </style>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#3882f6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="heroGlow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.6s" fill="freeze" calcMode="linear"/>
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+                       from="0 10" to="0 0" begin="0s" dur="0.6s" fill="freeze" calcMode="linear"/>
+
+    <text x="380" y="80" text-anchor="middle" font-size="60" font-weight="700"
+          letter-spacing="-0.5" fill="url(#heroGrad)" filter="url(#heroGlow)">Shubhangi Savant</text>
+
+    <rect x="310" y="100" width="140" height="3" rx="1.5" fill="url(#heroGrad)" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.8" begin="0.35s" dur="0.5s" fill="freeze" calcMode="linear"/>
+      <animate attributeName="width" from="0" to="140" begin="0.35s" dur="0.5s" fill="freeze" calcMode="linear"/>
+    </rect>
+  </g>
+</svg>
