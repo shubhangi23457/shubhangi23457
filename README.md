@@ -85,10 +85,6 @@ I care about clean layouts, responsive design, meaningful animations, and unders
 
 </div>
 
-<br/>
-
-## `GitHub Daily Streak`
-
 <div align="center">
 
 <!--
