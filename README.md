@@ -99,14 +99,6 @@ I care about clean layouts, responsive design, meaningful animations, and unders
   totals, then regenerates the SVGs below.
 -->
 
-<img src="assets/github-streak.svg" alt="Live GitHub contribution streak for shubhangi23457" width="100%"/>
-
-<br/><br/>
-
-<img src="assets/github-contributions.svg" alt="Live GitHub contribution calendar for shubhangi23457" width="100%"/>
-
-<br/>
-
 <sub>Updated automatically every day from GitHub contribution data · <a href=".github/workflows/update-github-stats.yml">GitHub Actions workflow</a></sub>
 
 </div>
