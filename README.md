@@ -95,8 +95,6 @@ I care about clean layouts, responsive design, meaningful animations, and unders
   totals, then regenerates the SVGs below.
 -->
 
-<sub>Updated automatically every day from GitHub contribution data · <a href=".github/workflows/update-github-stats.yml">GitHub Actions workflow</a></sub>
-
 </div>
 
 <br/>
